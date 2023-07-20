@@ -1,0 +1,12 @@
+---------------create a new repository on the command line---------------------------
+git init -----> Initialize git 
+git add .  ----> Git add files to branch
+git commit -m "first commit"  ----> Git commit the Code in Branch
+git branch -M main ---> create a branch
+git push -u origin main  ---->  Pushing the data in main
+
+
+-----------------push an existing repository from the command line------------------------
+git remote add origin https://github.com/gauri-sacumen/Learning.git
+git branch -M main
+git push -u origin main 
